@@ -1,0 +1,56 @@
+/* Universal selectors */
+
+* {
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+
+/* Element selectors */
+
+body {
+    position: relative;
+    margin: 0
+}
+
+section {
+    background-color: lightcoral;
+    padding: 16px;
+    position: absolute;
+    top: 100px;
+    width: 100%;
+    display: block
+}
+
+form {
+    background-color: violet;
+    position: absolute
+}
+
+footer {
+    background-color: plum;
+    position: fixed;
+    text-align: center;
+    bottom: 0;
+    height: 100px;
+    width: 100%;
+}
+/* Class selectors */
+
+.navbar {
+    background-color: thistle;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    margin-bottom: 40px;
+    padding: 0 10px 0 10px;
+}
+
+.items {
+    display: inline;
+    right: -50px
+}
+
+.aquamarine-background {
+    background-color: mediumaquamarine;
+}
+
+/* ID selectors */
